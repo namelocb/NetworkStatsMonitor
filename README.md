@@ -1,9 +1,10 @@
-<h1>JWipe - Disk Sanitization</h1>
-
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<h1>Raspberry Pi-Hosted Network Statistics Monitor</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+The premise of this project was to configure my Raspberry Pi 4 (using Raspberry Pi OS) to automatically capture network statistics from my home network.
+I created a Python script that leverages the Ookla Speedtest CLI tool in order to capture network data including download speed, upload speed, ping, and latency.
+I used a Cronjob to automatically execute this script every 15 minutes, and the resulting data is automatically output and stored within a docker-hosted Grafana instance.
+
 <br />
 
 
@@ -12,11 +13,12 @@ Project consists of a simple PowerShell script that walks the user through "zero
 - <b>Python</b>
 - <b>Bash</b>
 - <b>Cron</b>
-- <b></b>
+- <b>Grafana</b>
+- <b>Docker</b>
 
 <h2>Environments Used </h2>
 
-- <b>Ubuntu 22.04.3</b>
+- <b>Raspberry Pi OS</b>
 
 <h2>Program walk-through:</h2>
 
