@@ -28,6 +28,6 @@ speed_data = [
     }                                                                                                                            
   }                                                                                                                                 
 ]                                                                                                                                  
-client = InfluxDBClient('localhost', 8086, 'speedmonitor', 'holtbulls1028', 'internetspeed')
+client = InfluxDBClient('localhost', 8086, 'speedmonitor', '[password]', 'internetspeed')
 
 client.write_points(speed_data)
