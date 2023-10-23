@@ -14,42 +14,31 @@ I used a Cronjob to automatically execute this script every 15 minutes, and the 
 - <b>Bash</b>
 - <b>Cron</b>
 - <b>Grafana</b>
-- <b>Docker</b>
+- <b>InfluxDB</b>
 
 <h2>Environments Used </h2>
 
 - <b>Raspberry Pi OS</b>
 
-<h2>Program walk-through:</h2>
+<h2>Project walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>Install the Ookla Speedtest CLI Tool:</b> <br/>
+<img src="https://i.imgur.com/NONn3o4.png" height="80%" width="80%" alt="Raspberry Pi-Hosted Network Statistics Monitor"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>Create the Python script:</b>  <br/>
+<img src="https://i.imgur.com/12blql2.png" height="80%" width="80%" alt="Raspberry Pi-Hosted Network Statistics Monitor"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>Create a cron job to automate the Python script:</b>  <br/>
+<img src="https://i.imgur.com/wYjAin2.png" height="80%" width="80%" alt="Raspberry Pi-Hosted Network Statistics Monitor"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>Create Dashboard in Grafana:</b> <br/>
+<img src="https://i.imgur.com/40qbFbp.png" height="80%" width="80%" alt="Raspberry Pi-Hosted Network Statistics Monitor"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <!--
  ```diff
