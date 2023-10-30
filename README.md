@@ -3,7 +3,7 @@
 <h2>Description</h2>
 The premise of this project was to configure my Raspberry Pi 4 (using Raspberry Pi OS) to automatically capture network statistics from my home network.
 I created a Python script that leverages the Ookla Speedtest CLI tool in order to capture network data including download speed, upload speed, ping, and latency.
-I used a Cronjob to automatically execute this script every 15 minutes, and the resulting data is automatically output and stored within a Grafana instance.
+I used a Cronjob to automatically execute this script every 15 minutes, and the resulting data was automatically outputted and stored within a web UI Grafana instance.
 
 <br />
 
