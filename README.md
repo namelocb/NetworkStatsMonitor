@@ -12,7 +12,7 @@ This project was incredibly fun to set up and provided me interesting insights i
 <h2>Languages and Utilities Used</h2>
 
 - <b>Python</b>
-- <b>Bash</b>
+- <b>Raspberry Pi OS</b>
 - <b>Cron</b>
 - <b>Grafana</b>
 - <b>InfluxDB</b>
